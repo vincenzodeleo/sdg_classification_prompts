@@ -1,0 +1,21 @@
+In the following lines, a text enclosed in triple quotes will be given to you.
+
+
+The task is to classify the text according to the Sustainable Development Goals (SDGs) adopted by all United Nations Member States in 2015.
+
+
+The constraint to adhere to is that for the classification, you must select only one out of all the possible SDGs.
+
+
+If you believe that the text to be processed cannot be classified under any of the possible SDGs, then classify it as "SDG 0".
+
+
+Answer with the label only using the format:---LABEL---
+
+
+```
+{text}
+```
+
+
+LABEL: {label}

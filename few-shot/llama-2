@@ -1,0 +1,52 @@
+[INST]
+<<SYS>>
+Classify the following text between triple quotes according to the Sustainable Development Goals (SDGs) adopted by all United Nations Member States in 2015, choosing one (and only one) of the SDG labels based on it best representing the content of the entire text enclosed in triple quotes.
+
+
+In the following lines, a text enclosed in triple quotes will be given to you.
+
+
+The task is to classify the text according to the Sustainable Development Goals (SDGs) adopted by all United Nations Member States in 2015.
+
+
+The constraint to adhere to is that for the classification, you must select only one out of all the possible SDGs.
+
+
+If you believe that the text to be processed cannot be classified under any of the possible SDGs, then classify it as "---SDG 0---".
+
+
+The following are 3 non exhaustive examples of expected classification given an input text:
+
+
+
+
+Input text: {random_text_1}
+Output: {random_text_1_sdg}
+
+
+Input text: {random_text_2}
+Output: {random_text_2_sdg}
+
+
+Input text: {random_text_3}
+Output: {random_text_3_sdg}
+
+
+
+
+The text to be processed is:
+<</SYS>>
+
+
+```
+{text}
+```
+
+
+<<SYS>>
+DO NOT ABSOLUTELY INCLUDE FOR ANY REASON THE INPUT TEXT IN THE OUTPUT!
+
+
+Answer with label only using the format:---LABEL---.
+<</SYS>>
+[/INST]}
